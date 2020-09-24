@@ -5,6 +5,11 @@ body {
   background-color: #fff;
 }
 
+header,
+main > section {
+  margin-bottom: 64px;
+}
+
 /* UTILITIES */
 .container {
   width: 1350px;
@@ -111,8 +116,36 @@ a {
   width: 150px;
 }
 
+/* MAIN */
+/* info products */
+.info-products {
+  text-align: center;
+}
+
+.info-products a {
+  display: block;
+  color: #0007ff;
+}
+
+.info-products img {
+  height: 400px;
+}
+
+.info-products > div {
+  padding: 0 12px;
+}
+
+.info-products .product {
+  padding: 48px 0;
+  background-color: #fafafa;
+}
+
 /* TABLET QUERY */
 @media screen and (min-width: 768px) {
+.container {
+  max-width: 768px;
+}
+
   .only-tablet {
     display: block;
   }
@@ -120,6 +153,10 @@ a {
 
 /* DESKTOP QUERY */
 @media screen and (min-width: 992px) {
+  .container {
+    max-width: 100%;
+  }
+
   .only-phone,
   .only-tablet{
     display: block;
