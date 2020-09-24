@@ -12,8 +12,8 @@ header,
 
 /* UTILITIES */
 .container {
-  width: 480px;
-  max-width: 100%;
+  width: 1350px;
+  max-width: 90%;
 }
 
 .container-small {
@@ -45,7 +45,11 @@ p {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 34px;
 }
 
 a {
@@ -159,11 +163,27 @@ a {
     margin-top: 520px;
 }
 
+/* smart */
+.smart {
+  position: relative;
+  height: 470px;
+  background-image: url('../img/scooter-bg.jpg');
+  background-size: cover;
+}
+
+.smart .text {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
 /* TABLET QUERY */
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
-    max-width: 100%;
+    width: 90%;
+    max-width: 768px;
   }
 
   .only-tablet {
@@ -183,8 +203,8 @@ a {
 @media screen and (min-width: 992px) {
 
   .container {
-    width: 1350px;
-    max-width: 100%;
+    width: 90%;
+    max-width: 1350px;
   }
 
   .only-desktop {
@@ -204,7 +224,7 @@ a {
   text-align: right;
   }
 
-  .how-works .col-left .text {
+  .how-works .col-left .how-text {
     display: inline-block;
     text-align: left;
   }
