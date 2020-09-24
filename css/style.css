@@ -179,6 +179,44 @@ a {
   text-align: center;
 }
 
+/* find us */
+.find-us {
+  text-align: center;
+}
+
+.find-us > div .find-us-box {
+    padding: 42px 0 0;
+    height: 470px;
+}
+
+.find-us .app .find-us-box {
+  position: relative;
+   background-image: linear-gradient(to top, #263039, #2c3945, #334250, #394b5d, #405569);
+}
+
+.find-us .app img {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+  max-width: 95%;
+}
+
+.find-us .find-city .find-us-box {
+  background-image: url(../img/cities.jpg);
+}
+
+.find-us > div {
+  padding: 0 12px;
+  margin-bottom: 12px;
+}
+
+.find-us .findusbox {
+  padding: 48px 0;
+}
+
 /* TABLET QUERY */
 @media screen and (min-width: 768px) {
   .container {
