@@ -42,6 +42,24 @@ ul.list-inline li {
   color: white;
 }
 
+.instagram:hover {
+  color: #e7405a;
+}
+
+.facebook:hover {
+  color: #3b5896;
+}
+
+.twitter:hover {
+  color: #1da0f2;
+}
+
+.youtube:hover {
+  color: #fa011d;
+}
+
+
+
 /* TYPOGRAPHY */
 h1,
 h2,
@@ -274,6 +292,11 @@ footer .footer-menu li:not(:first-of-type) {
   color: #808080;
 }
 
+.footer-menu a:hover,
+.footer-menu a:focus {
+  color: white;
+}
+
 /* footer social */
 .footer-social {
   border-top: 1px solid #808080;
@@ -425,7 +448,6 @@ footer .footer-menu li:not(:first-of-type) {
     padding: 0 18px;
     font-size: 30px;
   }
-
 }
 
 
