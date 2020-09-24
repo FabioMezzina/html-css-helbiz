@@ -42,23 +42,25 @@ ul.list-inline li {
   color: white;
 }
 
-.instagram:hover {
+.instagram:hover,
+.instagram:focus {
   color: #e7405a;
 }
 
-.facebook:hover {
+.facebook:hover,
+.facebook:focus {
   color: #3b5896;
 }
 
-.twitter:hover {
+.twitter:hover,
+.twitter:focus {
   color: #1da0f2;
 }
 
-.youtube:hover {
+.youtube:hover,
+.youtube:focus {
   color: #fa011d;
 }
-
-
 
 /* TYPOGRAPHY */
 h1,
@@ -122,6 +124,11 @@ a {
 
 .nav-header .menu-header li:nth-last-of-type(3) {
   padding-left: 18px;
+}
+
+.nav-header a:hover,
+.nav-header a:focus {
+  font-size: 18px;
 }
 
 /* jumbotron */
