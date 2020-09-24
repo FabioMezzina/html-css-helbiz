@@ -5,6 +5,101 @@ body {
   background-color: #fff;
 }
 
+/* UTILITIES */
 .container {
   width: 1350px;
+}
+
+.container-small {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.only-phone,
+.only-tablet,
+.only-desktop {
+  display: none;
+}
+
+ul.list-inline li {
+  display: inline-block;
+  list-style: none;
+}
+
+
+/* TYPOGRAPHY */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* HEADER */
+/* navigation bar - header */
+.nav-header {
+  height: 64px;
+  line-height: 64px;
+}
+
+.logo-header {
+  float: left;
+  padding: 0 12px;
+}
+
+.logo-header img {
+  vertical-align: middle;
+}
+
+.menu-header {
+  float:right;
+}
+
+.nav-header .menu-header li {
+  line-height: 100%;
+  padding: 0 6px;
+  font-size: 12px;
+}
+
+.nav-header .menu-header li:first-of-type {
+  padding-left: 0;
+}
+
+.nav-header .menu-header li:last-of-type {
+  padding-right: 12px;
+}
+
+.nav-header .menu-header li:nth-last-of-type(1),
+.nav-header .menu-header li:nth-last-of-type(2) {
+  border-left: 1px solid #000;
+}
+
+.nav-header .menu-header li:nth-last-of-type(3) {
+  padding-left: 18px;
+}
+/* TABLET QUERY */
+@media screen and (min-width: 768px) {
+  .only-tablet {
+    display: block;
+  }
+}
+
+/* DESKTOP QUERY */
+@media screen and (min-width: 992px) {
+  .only-phone,
+  .only-tablet{
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* debug box */
+.box {
+  background-color: pink;
+  border: rgba(0, 0, 255, 0.2);
 }
