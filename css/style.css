@@ -335,24 +335,19 @@ footer .footer-menu li:not(:first-of-type) {
     display: block;
   }
 
+  /* info-products */
   .info-products > div {
     margin-bottom: 0;
   }
 
+  /* how it works */
   .col-right {
     margin-top: 200px;
   }
 
+  /* family */
   .family-text {
     padding: 40px 85px;
-  }
-
-  .find-us > div:first-child {
-    padding-right: 32px;
-  }
-
-  .find-us > div:last-child {
-    padding-left: 32px;
   }
 
   .family p {
@@ -364,6 +359,16 @@ footer .footer-menu li:not(:first-of-type) {
     font-size: 24px;
   }
 
+  /* find us */
+  .find-us > div:first-child {
+    padding-right: 32px;
+  }
+
+  .find-us > div:last-child {
+    padding-left: 32px;
+  }
+
+  /* FOOTER */
   footer {
     padding: 100px 0;
   }
@@ -372,6 +377,7 @@ footer .footer-menu li:not(:first-of-type) {
     margin-bottom: 36px;
   }
 
+  /* footer menu */
   footer .footer-menu li {
     list-style: none;
   }
@@ -380,6 +386,7 @@ footer .footer-menu li:not(:first-of-type) {
     display: block;
   }
 
+  /* footer social */
   .footer-social {
     height: 64px;
     line-height: 64px;
@@ -401,7 +408,6 @@ footer .footer-menu li:not(:first-of-type) {
 
 /* DESKTOP QUERY */
 @media screen and (min-width: 992px) {
-
   .container {
     width: 90%;
     max-width: 1350px;
@@ -415,6 +421,7 @@ footer .footer-menu li:not(:first-of-type) {
     font-size: 48px;
   }
 
+  /* how works */
   .how-works .col-left,
   .how-works .col-right {
       margin-top: 550px;
@@ -439,10 +446,12 @@ footer .footer-menu li:not(:first-of-type) {
     max-width: 100%;
   }
 
+  /* MAIN */
   #main-section .how-works {
     margin-bottom: 268px;
   }
 
+  /* family */
   .family-text {
     padding: 50px 100px;
   }
@@ -455,18 +464,4 @@ footer .footer-menu li:not(:first-of-type) {
     padding: 0 18px;
     font-size: 30px;
   }
-}
-
-
-
-
-
-
-
-
-
-/* debug box */
-.box {
-  background-color: pink;
-  border: rgba(0, 0, 255, 0.2);
 }
