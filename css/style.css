@@ -279,6 +279,15 @@ footer .footer-menu li:not(:first-of-type) {
   border-top: 1px solid #808080;
   border-bottom: 1px solid #808080;
   padding: 18px 0;
+  font-size: 14px;
+}
+
+.footer-social li {
+  font-size: 20px;
+}
+
+.footer-social li:not(:last-of-type) {
+  margin-right: 12px;
 }
 
 .footer-social > div:not(:last-of-type) {
@@ -341,8 +350,22 @@ footer .footer-menu li:not(:first-of-type) {
     display: block;
   }
 
+  .footer-social {
+    height: 64px;
+    line-height: 64px;
+    padding: 0;
+  }
+
   .footer-social > div:not(:last-of-type) {
     margin-bottom: 0;
+  }
+
+  .footer-social li {
+    font-size: 20px;
+  }
+
+  .footer-social li:not(:last-of-type) {
+    margin-right: 12px;
   }
 }
 
