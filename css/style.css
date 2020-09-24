@@ -217,6 +217,23 @@ a {
   padding: 48px 0;
 }
 
+/* family */
+.family {
+  position: relative;
+  height: 400px;
+  background-image: url('../img/social-banner.jpg');
+}
+
+.family-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 25px 70px;
+  background-color: #fff;
+  text-align: center;
+}
+
 /* TABLET QUERY */
 @media screen and (min-width: 768px) {
   .container {
@@ -234,6 +251,10 @@ a {
 
   .col-right {
     margin-top: 200px;
+  }
+
+  .family-text {
+    padding: 40px 85px;
   }
 }
 
@@ -279,6 +300,10 @@ a {
 
   #main-section .how-works {
     margin-bottom: 268px;
+  }
+
+  .family-text {
+    padding: 50px 100px;
   }
 
 }
