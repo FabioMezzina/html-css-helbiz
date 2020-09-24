@@ -26,8 +26,22 @@ ul.list-inline li {
   list-style: none;
 }
 
+.color-white {
+  color: white;
+}
 
 /* TYPOGRAPHY */
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 18px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -75,6 +89,28 @@ a {
 .nav-header .menu-header li:nth-last-of-type(3) {
   padding-left: 18px;
 }
+
+/* jumbotron */
+.jumbotron {
+  position: relative;
+  height: 480px;
+  background-image: url('../img/hero-bg.jpg');
+  background-size: cover;
+  text-align: center;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vw;
+}
+
+.jumbotron img {
+  width: 150px;
+}
+
 /* TABLET QUERY */
 @media screen and (min-width: 768px) {
   .only-tablet {
@@ -87,6 +123,10 @@ a {
   .only-phone,
   .only-tablet{
     display: block;
+  }
+
+  h1 {
+    font-size: 48px;
   }
 }
 
