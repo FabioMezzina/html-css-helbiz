@@ -21,6 +21,15 @@ header,
   margin: auto;
 }
 
+.container > div:first-child {
+  padding-left: 0;
+}
+
+.container > div:last-child {
+  padding-right: 0;
+}
+
+
 .container-small::after {
   content: '';
   display: table;
@@ -236,11 +245,10 @@ a {
 }
 
 .find-us .find-city .find-us-box {
-  background-image: url(../img/cities.jpg);
+  background-image: url('../img/cities.jpg');
 }
 
 .find-us > div {
-  /* padding: 0 12px; */
   margin-bottom: 12px;
 }
 
