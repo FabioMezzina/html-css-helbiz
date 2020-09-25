@@ -113,7 +113,6 @@ a {
 }
 
 .nav-header .menu-header li {
-  line-height: 100%;
   padding: 0 6px;
   font-size: 12px;
 }
@@ -129,6 +128,7 @@ a {
 .nav-header .menu-header li:nth-last-of-type(1),
 .nav-header .menu-header li:nth-last-of-type(2) {
   border-left: 1px solid #000;
+  line-height: 100%;
 }
 
 .nav-header .menu-header li:nth-last-of-type(3) {
